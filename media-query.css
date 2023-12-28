@@ -1,0 +1,44 @@
+@media (min-width: 650px) {
+  .container {
+    width: 600px;
+    margin-top: 175px;
+    margin-bottom: 175px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .img-mobile {
+    display: none;
+  }
+
+  .img-desktop {
+    display: block;
+    width: 300px;
+    height: 450px;
+    object-fit: contain;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+
+  .text-block {
+    width: 300px;
+    margin: 32px 32px 32px 32px;
+  }
+
+  .title {
+    margin-top: 20px;
+  }
+
+  .description {
+    margin-top: 24px;
+  }
+
+  .prices {
+    margin-top: 29px;
+  }
+
+  .btn {
+    width: 236px;
+    margin-top: 30px;
+  }
+}

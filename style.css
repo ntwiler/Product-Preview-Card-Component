@@ -40,6 +40,10 @@ body {
   border-top-right-radius: 10px;
 }
 
+.img-desktop {
+  display: none;
+}
+
 .text-block {
   margin: 24px 24px 24px 24px;
 }
