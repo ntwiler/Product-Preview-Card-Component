@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+:root {
+  --color-pure-white: #fff;
+  --color-cram-bg: #f2eae2;
+  --color-aurometal-saurus: #6c7289;
+  --color-gunmetal: #1c232b;
+  --color-deep-aquamarine: #3d8168;
+  --color-deep-aquamarine-hover: #1a4032;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  background-color: var(--color-cram-bg);
+}
+
+.container {
+  width: 343px;
+  margin-top: 28px;
+  margin-bottom: 28px;
+  background-color: var(--color-pure-white);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.img-mobile {
+  width: 343px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.text-block {
+  margin: 24px 24px 24px 24px;
+}
+
+.perfume {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 5px;
+  color: var(--color-aurometal-saurus);
+}
+
+.title {
+  font-family: Fraunces;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  color: var(--color-gunmetal);
+  margin-top: 12px;
+}
+
+.description {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 23px;
+  color: var(--color-aurometal-saurus);
+  margin-top: 16px;
+}
+
+.prices {
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+  gap: 19px;
+}
+
+.price-1 {
+  font-family: Fraunces;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  color: var(--color-deep-aquamarine);
+}
+
+.price-2 {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 23px;
+  text-decoration-line: line-through;
+  color: var(--color-aurometal-saurus);
+}
+
+.btn {
+  margin-top: 20px;
+  width: 295px;
+  height: 48px;
+  border-radius: 8px;
+  border: none;
+  background-color: var(--color-deep-aquamarine);
+  color: var(--color-pure-white);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.btn:hover {
+  background-color: var(--color-deep-aquamarine-hover);
+  cursor: pointer;
+}
